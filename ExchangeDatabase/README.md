@@ -3,9 +3,10 @@ title: 使用 Zabbix 监控 Exchange Server 的数据库
 date: 2019-03-17 00:12:06
 toc: true
 categories: Moniting
-thumbnail: https://i.imgur.com/f7BvyQJ.png
 ---
-在这篇文章里我想要分享一下 Exchange Server 2016 数据库状态以及数据库使用量的监控方法，经过几次修改和迭代，目前我使用的是 Zabbix 3.2 对数据库进行统一、自动化、动态自配置的监控。
+[博客原文](https://archeanz.com/2019/03/17/moniting-exchange-server-with-zabbix/)
+
+在[这篇文章](https://archeanz.com/2019/03/17/moniting-exchange-server-with-zabbix/)里我想要分享一下 Exchange Server 2016 数据库状态以及数据库使用量的监控方法，经过几次修改和迭代，目前我使用的是 Zabbix 3.2 对数据库进行统一、自动化、动态自配置的监控。
 
 ## 主要解决了哪些问题？
 
