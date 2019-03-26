@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-03-25T07:11:21Z</date>
+    <date>2019-03-26T10:35:17Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -78,8 +78,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysGlobalTmmStatMemoryTotal.0</snmp_oid>
                     <key>F5-BIGIP-SYSTEM-MIB[sysGlobalTmmStatMemoryTotal]</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -137,8 +137,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysGlobalTmmStatMemoryUsed.0</snmp_oid>
                     <key>F5-BIGIP-SYSTEM-MIB[sysGlobalTmmStatMemoryUsed]</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -196,8 +196,8 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrStorageSize.10</snmp_oid>
                     <key>HOST-RESOURCES-MIB[hrStorageSize.10]</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -260,8 +260,8 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrStorageUsed.10</snmp_oid>
                     <key>HOST-RESOURCES-MIB[hrStorageUsed.10]</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -324,8 +324,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysSystemUptime.0</snmp_oid>
                     <key>host.system.uptime</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -388,7 +388,7 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysProductVersion.0</snmp_oid>
                     <key>host.system.varsion</key>
                     <delay>300</delay>
-                    <history>14d</history>
+                    <history>7d</history>
                     <trends>0</trends>
                     <status>0</status>
                     <value_type>4</value_type>
@@ -447,8 +447,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatAdhKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatAdhKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -511,8 +511,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatAesBulk.0</snmp_oid>
                     <key>sysClientsslStatAesBulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -575,8 +575,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatAesGcmBulk.0</snmp_oid>
                     <key>sysClientsslStatAesGcmBulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -639,8 +639,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatBadRecords.0</snmp_oid>
                     <key>sysClientsslStatBadRecords</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -703,8 +703,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDecryptedBytesIn.0</snmp_oid>
                     <key>sysClientsslStatDecryptedBytesIn</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -771,8 +771,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDecryptedBytesOut.0</snmp_oid>
                     <key>sysClientsslStatDecryptedBytesOut</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -839,8 +839,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDesBulk.0</snmp_oid>
                     <key>sysClientsslStatDesBulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -903,8 +903,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDhDssKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatDhDssKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -967,8 +967,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDheDssKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatDheDssKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1031,8 +1031,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDhRsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatDhRsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1095,8 +1095,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatDtlsv1.0</snmp_oid>
                     <key>sysClientsslStatDtlsv1</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1159,8 +1159,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEcdhEcdsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatEcdhEcdsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1223,8 +1223,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatRsaKeyxchg.0sysClientsslStatEcdheEcdsaKeyxchg</snmp_oid>
                     <key>sysClientsslStatEcdheEcdsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1287,8 +1287,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEcdheRsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatEcdheRsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1351,8 +1351,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEcdhRsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatEcdhRsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1415,8 +1415,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEdhDssKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatEdhDssKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1479,8 +1479,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEdhRsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatEdhRsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1543,8 +1543,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEncryptedBytesIn.0</snmp_oid>
                     <key>sysClientsslStatEncryptedBytesIn</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1611,8 +1611,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatEncryptedBytesOut.0</snmp_oid>
                     <key>sysClientsslStatEncryptedBytesOut</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1679,8 +1679,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatFatalAlerts.0</snmp_oid>
                     <key>sysClientsslStatFatalAlerts</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1743,8 +1743,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatHandshakeFailures.0</snmp_oid>
                     <key>sysClientsslStatHandshakeFailures</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1807,8 +1807,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatIdeaBulk.0</snmp_oid>
                     <key>sysClientsslStatIdeaBulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1871,8 +1871,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatInsecureHandshakeAccepts.0</snmp_oid>
                     <key>sysClientsslStatInsecureHandshakeAccepts</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1935,8 +1935,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatInsecureHandshakeRejects.0</snmp_oid>
                     <key>sysClientsslStatInsecureHandshakeRejects</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -1999,8 +1999,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatInsecureRenegotiationRejects.0</snmp_oid>
                     <key>sysClientsslStatInsecureRenegotiationRejects</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2063,8 +2063,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatMd5Digest.0</snmp_oid>
                     <key>sysClientsslStatMd5Digest</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2127,8 +2127,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatNotssl.0</snmp_oid>
                     <key>sysClientsslStatNotssl</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2191,8 +2191,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatNullBulk.0</snmp_oid>
                     <key>sysClientsslStatNullBulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2255,8 +2255,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatNullDigest.0</snmp_oid>
                     <key>sysClientsslStatNullDigest</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2319,8 +2319,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatRc2Bulk.0</snmp_oid>
                     <key>sysClientsslStatRc2Bulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2383,8 +2383,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatRc4Bulk.0</snmp_oid>
                     <key>sysClientsslStatRc4Bulk</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2447,8 +2447,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatRsaKeyxchg.0</snmp_oid>
                     <key>sysClientsslStatRsaKeyxchg</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2511,8 +2511,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSecureHandshakes.0</snmp_oid>
                     <key>sysClientsslStatSecureHandshakes</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2575,8 +2575,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSessCacheCurEntries.0</snmp_oid>
                     <key>sysClientsslStatSessCacheCurEntries</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2634,8 +2634,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSessCacheHits.0</snmp_oid>
                     <key>sysClientsslStatSessCacheHits</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2698,8 +2698,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSessCacheInvalidations.0</snmp_oid>
                     <key>sysClientsslStatSessCacheInvalidations</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2762,8 +2762,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSessCacheLookups.0</snmp_oid>
                     <key>sysClientsslStatSessCacheLookups</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2826,8 +2826,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSessCacheOverflows.0</snmp_oid>
                     <key>sysClientsslStatSessCacheOverflows</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2890,8 +2890,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatShaDigest.0</snmp_oid>
                     <key>sysClientsslStatShaDigest</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -2954,8 +2954,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSslv2.0</snmp_oid>
                     <key>sysClientsslStatSslv2</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3018,8 +3018,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatSslv3.0</snmp_oid>
                     <key>sysClientsslStatSslv3</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3082,8 +3082,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatTlsv1.0</snmp_oid>
                     <key>sysClientsslStatTlsv1</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3146,8 +3146,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatTlsv11.0</snmp_oid>
                     <key>sysClientsslStatTlsv11</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3210,8 +3210,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatTlsv12.0</snmp_oid>
                     <key>sysClientsslStatTlsv12</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3274,8 +3274,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatTotCompatConns.0</snmp_oid>
                     <key>sysClientsslStatTotCompatConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3338,8 +3338,8 @@
                     <snmp_oid/>
                     <key>sysClientsslStatTotConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3397,8 +3397,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysClientsslStatTotNativeConns.0</snmp_oid>
                     <key>sysClientsslStatTotNativeConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3461,8 +3461,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysCmFailoverStatusId.0</snmp_oid>
                     <key>sysCmFailoverStatusId</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3522,8 +3522,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysCmSyncStatusId.0</snmp_oid>
                     <key>sysCmSyncStatusId</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3583,8 +3583,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysHostMemoryTotal.0</snmp_oid>
                     <key>sysHostMemoryTotal</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3642,8 +3642,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysHostMemoryUsed.0</snmp_oid>
                     <key>sysHostMemoryUsed</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3701,8 +3701,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysServersslStatTotNativeConns.0</snmp_oid>
                     <key>sysServersslStatTotCompatConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3765,8 +3765,8 @@
                     <snmp_oid/>
                     <key>sysServersslStatTotConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3824,8 +3824,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysServersslStatTotNativeConns.0</snmp_oid>
                     <key>sysServersslStatTotNativeConns</key>
                     <delay>60</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -3888,8 +3888,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatClientBytesIn.0</snmp_oid>
                     <key>sysStatClientBytesIn</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3956,8 +3956,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatClientBytesOut.0</snmp_oid>
                     <key>sysStatClientBytesOut</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4024,8 +4024,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatClientCurConns.0</snmp_oid>
                     <key>sysStatClientCurConns</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4083,8 +4083,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatClientPktsIn5m.0</snmp_oid>
                     <key>sysStatClientPktsIn5m</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4142,8 +4142,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatClientPktsOut5m.0</snmp_oid>
                     <key>sysStatClientPktsOut5m</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4201,8 +4201,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatConnectionMemoryErrors.0</snmp_oid>
                     <key>sysStatConnectionMemoryErrors</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4260,8 +4260,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatCurrPvaAssistConn.0</snmp_oid>
                     <key>sysStatCurrPvaAssistConn</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4319,8 +4319,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatDroppedPackets.0</snmp_oid>
                     <key>sysStatDroppedPackets</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4383,8 +4383,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatHttpRequests.0</snmp_oid>
                     <key>sysStatHttpRequests</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4447,8 +4447,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatIncomingPacketErrors.0</snmp_oid>
                     <key>sysStatIncomingPacketErrors</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4511,8 +4511,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatLicenseDeny.0</snmp_oid>
                     <key>sysStatLicenseDeny</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4575,8 +4575,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatMaxConnVirtualPathDeny.0</snmp_oid>
                     <key>sysStatMaxConnVirtualPathDeny</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4634,8 +4634,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatMemoryTotal.0</snmp_oid>
                     <key>sysStatMemoryTotal</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4693,8 +4693,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatMemoryUsed.0</snmp_oid>
                     <key>sysStatMemoryUsed</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4752,8 +4752,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatNoHandlerDeny.0</snmp_oid>
                     <key>sysStatNoHandlerDeny</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4816,8 +4816,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatOutgoingPacketErrors.0</snmp_oid>
                     <key>sysStatOutgoingPacketErrors</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4880,8 +4880,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatPvaClientCurConns.0</snmp_oid>
                     <key>sysStatPvaClientCurConns</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4939,8 +4939,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatPvaServerCurConns.0</snmp_oid>
                     <key>sysStatPvaServerCurConns</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -4998,8 +4998,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatServerBytesIn.0</snmp_oid>
                     <key>sysStatServerBytesIn</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5066,8 +5066,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatServerBytesOut.0</snmp_oid>
                     <key>sysStatServerBytesOut</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5134,8 +5134,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatServerCurConns.0</snmp_oid>
                     <key>sysStatServerCurConns</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5193,8 +5193,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatServerPktsIn5m.0</snmp_oid>
                     <key>sysStatServerPktsIn5m</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5252,8 +5252,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatServerPktsOut5m.0</snmp_oid>
                     <key>sysStatServerPktsOut5m</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5311,8 +5311,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatTmIdleCycles.0</snmp_oid>
                     <key>sysStatTmIdleCycles</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5370,8 +5370,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatTmSleepCycles.0</snmp_oid>
                     <key>sysStatTmSleepCycles</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5429,8 +5429,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatTmTotalCycles.0</snmp_oid>
                     <key>sysStatTmTotalCycles</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5488,8 +5488,8 @@
                     <snmp_oid>F5-BIGIP-SYSTEM-MIB::sysStatVirtualServerNonSynDeny.0</snmp_oid>
                     <key>sysStatVirtualServerNonSynDeny</key>
                     <delay>300</delay>
-                    <history>14d</history>
-                    <trends>1825d</trends>
+                    <history>7d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -5576,7 +5576,7 @@
                         <formula/>
                         <conditions/>
                     </filter>
-                    <lifetime>30d</lifetime>
+                    <lifetime>0</lifetime>
                     <description/>
                     <item_prototypes>
                         <item_prototype>
@@ -5901,7 +5901,7 @@
                         <formula/>
                         <conditions/>
                     </filter>
-                    <lifetime>30d</lifetime>
+                    <lifetime>0</lifetime>
                     <description/>
                     <item_prototypes>
                         <item_prototype>
@@ -6111,7 +6111,7 @@
                             <delay>30</delay>
                             <history>7d</history>
                             <trends>365d</trends>
-                            <status>0</status>
+                            <status>1</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -6332,7 +6332,7 @@
                             <type>4</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmPoolMemberMonitorStatus.{#SNMPINDEX}</snmp_oid>
-                            <key>ltmPoolMemberMonitorStatus.[{#SNMPINDEX}]</key>
+                            <key>ltmPoolMemberMonitorStatus.[&quot;{#SNMPINDEX}&quot;]</key>
                             <delay>30</delay>
                             <history>90d</history>
                             <trends>365d</trends>
@@ -6390,7 +6390,24 @@
                             <master_item/>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes/>
+                    <trigger_prototypes>
+                        <trigger_prototype>
+                            <expression>{Template_F5_SNMP:ltmPoolMemberMonitorStatus.[&quot;{#SNMPINDEX}&quot;].last()}=19 and {Template_F5_SNMP:sysCmFailoverStatusId.last()}=4</expression>
+                            <recovery_mode>0</recovery_mode>
+                            <recovery_expression/>
+                            <name>F5 Pool Member {#SNMPINDEX} is down</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>3</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
+                    </trigger_prototypes>
                     <graph_prototypes/>
                     <host_prototypes/>
                     <jmx_endpoint/>
@@ -6441,7 +6458,7 @@
                         <formula/>
                         <conditions/>
                     </filter>
-                    <lifetime>30d</lifetime>
+                    <lifetime>0</lifetime>
                     <description/>
                     <item_prototypes>
                         <item_prototype>
@@ -6450,7 +6467,7 @@
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmPoolActiveMemberCnt.&quot;{#SNMPVALUE}&quot;</snmp_oid>
                             <key>ltmPoolActiveMemberCnt[{#SNMPVALUE}]</key>
-                            <delay>300</delay>
+                            <delay>30</delay>
                             <history>7d</history>
                             <trends>365d</trends>
                             <status>0</status>
@@ -6572,7 +6589,7 @@
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <snmp_oid>F5-BIGIP-LOCAL-MIB::ltmPoolMemberCnt.&quot;{#SNMPVALUE}&quot;</snmp_oid>
                             <key>ltmPoolMemberCnt[{#SNMPVALUE}]</key>
-                            <delay>300</delay>
+                            <delay>30</delay>
                             <history>7d</history>
                             <trends>365d</trends>
                             <status>0</status>
@@ -6987,6 +7004,22 @@
                             <dependencies/>
                             <tags/>
                         </trigger_prototype>
+                        <trigger_prototype>
+                            <expression>{Template_F5_SNMP:ltmPoolActiveMemberCnt[{#SNMPVALUE}].last()}/{Template_F5_SNMP:ltmPoolMemberCnt[{#SNMPVALUE}].last()}&lt;0.5 and {Template_F5_SNMP:sysCmFailoverStatusId.last()}=4</expression>
+                            <recovery_mode>0</recovery_mode>
+                            <recovery_expression/>
+                            <name>F5 Pool {#SNMPVALUE} active node percentage is below 50%</name>
+                            <correlation_mode>0</correlation_mode>
+                            <correlation_tag/>
+                            <url/>
+                            <status>0</status>
+                            <priority>4</priority>
+                            <description/>
+                            <type>0</type>
+                            <manual_close>0</manual_close>
+                            <dependencies/>
+                            <tags/>
+                        </trigger_prototype>
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
@@ -7083,7 +7116,7 @@
                         <formula/>
                         <conditions/>
                     </filter>
-                    <lifetime>30d</lifetime>
+                    <lifetime>0</lifetime>
                     <description/>
                     <item_prototypes>
                         <item_prototype>
